@@ -17,17 +17,28 @@
     <header>
         <div class="container">
             <nav>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
-                    viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="nav-menu-icon" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                 </svg>
-                <ul class="nav-list-mobile">
-                    <li class="nav-list-mobile-item">Home</li>
-                    <li class="nav-list-mobile-item">Pass It On</li>
-                    <li class="nav-list-mobile-item">Retrospective Catalo</li>
-                    <li class="nav-list-mobile-item">Six Lessons in Typography</li>
-                </ul>
+                <div class="nav-list-mobile-container">
+                    <div class="nav-list-mobile-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="nav-x-icon" viewBox="0 0 16 16">
+                            <path
+                                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                        </svg>
+                    </div>
+                    <ul class="nav-list-mobile">
+                        <li class="nav-list-mobile-item"><a href="#"
+                                class="nav-list-mobile-item-link nav-link-active">Home</a></li>
+                        <li class="nav-list-mobile-item"><a href="#" class="nav-list-mobile-item-link">Pass It On</a>
+                        </li>
+                        <li class="nav-list-mobile-item"><a href="#" class="nav-list-mobile-item-link">Retrospective
+                                Catalog</a></li>
+                        <li class="nav-list-mobile-item"><a href="#" class="nav-list-mobile-item-link">Six Lessons in
+                                Typography</a></li>
+                    </ul>
+                </div>
                 <ul class="nav-list">
                     <li class="nav-list-item">Home</li>
                     <li class="nav-list-item">Pass It On</li>
@@ -40,36 +51,40 @@
     <main>
         <div class="container container-dark">
             <div class="content-large">
-                <h1>KRZYSZTOF LENK</h1>
-                <p>Krzysztof (Kris) Lenk, 1936–2018, a renowned graphic designer, information architect, and consultant
+                <h1 class="content-page-title">KRZYSZTOF LENK</h1>
+                <p class="para-hero">Krzysztof (Kris) Lenk, 1936–2018, a renowned graphic designer, information
+                    architect, and consultant
                     in
                     visual logic. Professor at Łódź Academy of Fine Arts and Design in Poland (1973–1982), and Rhode
                     Island
                     School of Design in the USA (1982–2010). Co-founder and creative director of studio Dynamic Diagrams
                     (1990–2001).</p>
-                <p>“Good typography is not rooted in the technology of composition or printing, but in the complicated
-                    processes of human perception.”</p>
-                <p>–Krzysztof Lenk</p>
+                <p class="para-quote para-hero"><em>“Good typography is not rooted in the technology of composition or
+                        printing,
+                        but
+                        in the complicated
+                        processes of human perception.”</em></p>
+                <p class="quote-author para-hero"><strong>–Krzysztof Lenk</strong></p>
             </div>
         </div>
         <div class="container">
-            <div class="content-small">
+            <div class="content-large articles-container">
                 <article class="article-featured">
                     <a href="#" class="article-read-more">
-                        <img src="#" alt="#" class="article-img">
+                        <img src="images/large_Lenk-13.png" alt="#" class="article-img">
                         <h2 class="article-title">PASS IT ON: DESIGN, TEACHING, LIFE</h2>
                     </a>
                 </article>
                 <article class="article-featured">
                     <a href="#" class="article-read-more">
-                        <img src="#" alt="#" class="article-img">
+                        <img src="images/Krzysztof_Lenk_Retrospective_2023_Page_01-1.jpg" alt="#" class="article-img">
                         <h2 class="article-title">RETROSPECTIVE
                             CATALOG</h2>
                     </a>
                 </article>
                 <article class="article-featured">
                     <a href="#" class="article-read-more">
-                        <img src="#" alt="#" class="article-img">
+                        <img src="images/SIX-LESSONS.jpg" alt="#" class="article-img">
                         <h2 class="article-title">SIX LESSONS IN
                             TYPOGRAPHY</h2>
                     </a>
@@ -78,10 +93,10 @@
         </div>
         <div class="container">
             <div class="content-small">
-                <iframe loading="lazy" title="Krzysztof Lenk" src="./Krzysztof Lenk_files/364828782.html" width="500"
-                    height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>
+                <iframe loading="lazy" title="Krzysztof Lenk" src="./Krzysztof Lenk_files/364828782.html"
+                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>
                 <p>A short documentary in which Krzysztof Lenk recounts his career as a designer and educator.</p>
-                <h2>Other Books & Essays</h2>
+                <h2 class="heading-spacer">Other Books & Essays</h2>
                 <p>Krzysztof Lenk, Paul Kahn (1997). <strong>“Krysztof Lenk and Paul Kahn: Dynamic Diagrams”</strong>,
                     chapter in Richard Saul Wurman, Information Architects. New York: Graphis. pp. 190–201. ISBN
                     9781888001389</p>
@@ -100,28 +115,41 @@
                 <p>Krzysztof Lenk (2011). <strong>Typografia – Wystawa prac studentów programu typografii, Wykład “Słowa
                         i teksty"</strong>, Warsztat z typografii. Uniwersytet Artystyczny w Poznaniu. ISBN
                     9788388400780</p>
-                <h2>Articles & Journal Papers</h2>
+                <h2 class="heading-spacer">Articles & Journal Papers</h2>
                 <p>Paul Kahn and Krzysztof Lenk. 1992. To Show and Explain: The Information Graphics of Stevin and
                     Comenius. Visible Language, Vol. 26, No. 3-4 (Summer/Autumn 1992), pp. 272-281.
-                    https://www.researchgate.net/publication/234713997_To_Show_and_Explain_The_Information_Graphics_of_Stevin_and_Comenius
+                    <a href="https://www.researchgate.net/publication/234713997_To_Show_and_Explain_The_Information_Graphics_of_Stevin_and_Comenius"
+                        class="external-link">https://www.researchgate.net/publication/234713997_To_Show_and_Explain_The_Information_Graphics_of_Stevin_and_Comenius</a>
                 </p>
                 <p>Paul Kahn and Krzysztof Lenk. 1998. “Design: principles of typography for user interface design.”
-                    Interactions 5(6): 15 (Nov./Dec. 1998). https://doi.org/10.1145/287821.287825</p>
+                    Interactions 5(6): 15 (Nov./Dec. 1998). <a href="https://doi.org/10.1145/287821.287825"
+                        class="external-link">https://doi.org/10.1145/287821.287825</a></p>
                 <p>David Zeltzer, Ann M. Bisantz, Krzysztof Lenk, Jock D. Mackinlay, and Randall W. Simons. 1998.
                     “Visualization (panel): the hard problems.” In ACM SIGGRAPH 98 Conference abstracts and applications
                     (SIGGRAPH ’98). Association for Computing Machinery, New York, NY, USA, 177–179.
-                    https://doi.org/10.1145/280953.281550</p>
+                    <a href="https://doi.org/10.1145/280953.281550"
+                        class="external-link">https://doi.org/10.1145/280953.281550</a>
+                </p>
                 <p>Kahn, Paul, Krzysztof Lenk and Piotr Kaczmarek. “Applications of isometric projection for visualizing
                     web sites.” Information Design Journal 10 (2001): 221-228.
-                    https://www.jbe-platform.com/content/journals/10.1075/idj.10.3.03kah</p>
+                    <a href="https://www.jbe-platform.com/content/journals/10.1075/idj.10.3.03kah"
+                        class="external-link">https://www.jbe-platform.com/content/journals/10.1075/idj.10.3.03kah</a>
+                </p>
                 <p>More on ResearchGate</p>
             </div>
         </div>
     </main>
     <footer>
-        <p>Krzysztof Lenk</p>
-        <p>Contact: jlenk@me.com</p>
+        <div class="container">
+            <div class="content-small">
+                <div class="content-footer">
+                    <p class="para-footer">Krzysztof Lenk</p>
+                    <p class="para-footer">Contact: jlenk@me.com</p>
+                </div>
+            </div>
+        </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>
