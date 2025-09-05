@@ -78,7 +78,9 @@ h2 {
 
 
 
-.article-page-title {}
+.article-page-title {
+    margin-bottom: .25em;
+}
 
 .heading-spacer {
     padding-top: 2em;
@@ -194,6 +196,12 @@ strong {
     background-position: 75% 10%;
     min-height: 732px;
     /* background-size: 1024px; */
+}
+
+@media (max-width:768px) {
+    .container-dark {
+        background-position: 85% 10%;
+    }
 }
 
 .container-space {
